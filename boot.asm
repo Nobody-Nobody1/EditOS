@@ -1,9 +1,25 @@
 [org 0x7C00]
 
-; Print 'E'
-mov ah, 0x0E
-mov al, 'E'
-int 0x10
+print_string:
+    mov si, msg        ; SI = address of string
+
+.next_char:
+    lodsb              ; load byte at [SI] into AL, increment SI
+    cmp al, 0          ; check for null terminator
+    je .done
+
+    mov ah, 0x0E       ; BIOS teletype function
+    int 0x10           ; print AL
+
+    jmp .next_char
+
+.done:
+    ret
+
+msg db "Hello from EditOS!", 0
+
+; Call the print routine
+call print_string
 
 ; Load kernel (sector 2) to 0x8000
 mov ah, 0x02
