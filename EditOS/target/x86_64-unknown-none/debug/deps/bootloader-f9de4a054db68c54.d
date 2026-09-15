@@ -1,0 +1,9 @@
+C:\Users\bibha\Documents\GitHub\EditOS\EditOS\target\x86_64-unknown-none\debug\deps\bootloader-f9de4a054db68c54.d: C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\lib.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\mod.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\memory_map.rs
+
+C:\Users\bibha\Documents\GitHub\EditOS\EditOS\target\x86_64-unknown-none\debug\deps\libbootloader-f9de4a054db68c54.rlib: C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\lib.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\mod.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\memory_map.rs
+
+C:\Users\bibha\Documents\GitHub\EditOS\EditOS\target\x86_64-unknown-none\debug\deps\libbootloader-f9de4a054db68c54.rmeta: C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\lib.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\mod.rs C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\memory_map.rs
+
+C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\lib.rs:
+C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\mod.rs:
+C:\Users\bibha\scoop\persist\rustup-gnu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\bootloader-0.9.35\src\bootinfo\memory_map.rs:
