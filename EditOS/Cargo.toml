@@ -7,9 +7,10 @@ edition = "2024"
 bootloader = "0.9"
 
 [package.metadata.bootloader]
-target = "x86_64-unknown-none"
 
-[lib]
+[[bin]]
+name = "edit_os"
+path = "src/main.rs"
 test = false
 doctest = false
 bench = false
