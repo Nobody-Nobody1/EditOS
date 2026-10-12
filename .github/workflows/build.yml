@@ -11,15 +11,13 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Install Rust nightly
-      uses: actions-rs/toolchain@v1
+      uses: dtolnay/rust-toolchain@nightly
       with:
-        toolchain: nightly
         components: rust-src, llvm-tools-preview
-        target: x86_64-unknown-none
-        override: true
+        targets: x86_64-unknown-none
 
     - name: Install bootimage
       run: cargo install bootimage
