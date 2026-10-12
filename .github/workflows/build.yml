@@ -1,0 +1,34 @@
+name: Build OS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Rust nightly
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly
+        components: rust-src, llvm-tools-preview
+        target: x86_64-unknown-none
+        override: true
+
+    - name: Install bootimage
+      run: cargo install bootimage
+
+    - name: Build kernel image
+      run: cargo +nightly bootimage
+
+    - name: Upload bootimage artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: edit-os-image
+        path: target/x86_64-unknown-none/debug/bootimage.bin
