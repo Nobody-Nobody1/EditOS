@@ -1,9 +1,7 @@
 [package]
 name = "edit_os"
 version = "0.1.0"
-edition = "2024"
-build-std = ["core", "compiler_builtins"]
-
+edition = "2021"
 
 [dependencies]
 bootloader = "0.11"
