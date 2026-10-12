@@ -25,7 +25,7 @@ jobs:
 
     - name: Build kernel image
       run: cargo +nightly bootimage
-      working-directory: ./EditOS/EditOS
+      working-directory: ./EditOS
 
     - name: Upload bootimage artifact
       uses: actions/upload-artifact@v4
